@@ -265,7 +265,7 @@ class MainWindow(ctk.CTk):
                     
                     import os
                     from pathlib import Path
-                    target_dir = Path("D:/自制连点器/config/targets")
+                    target_dir = Path(__file__).parent.parent / "config" / "targets"
                     target_dir.mkdir(parents=True, exist_ok=True)
                     
                     name = f"target_{len(self.image_detector.targets) + 1}"
