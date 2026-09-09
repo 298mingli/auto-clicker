@@ -4,6 +4,13 @@ A feature-rich desktop auto clicker with image recognition and color detection, 
 
 一个功能丰富的桌面连点器，支持图像识别和颜色检测，基于 Python + CustomTkinter 构建。
 
+## Status / 当前状态
+
+> **Note / 注意**
+> 暂时只完成基础功能，部分功能尚未完善。欢迎贡献代码一起完善！
+>
+> Only basic features are completed. Some features are still under development. Contributions are welcome!
+
 ## Features / 功能特性
 
 - **Basic Clicking / 基础点击** — Fixed position or region clicking with configurable interval and click type
